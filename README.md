@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Expected Output
 
-![](./design/desktop-preview.jpg)
+![](./design/desktop-design.jpg)
 
 
 
