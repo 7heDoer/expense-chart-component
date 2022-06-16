@@ -1,0 +1,24 @@
+.header-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(10deg, 79%, 65%);
+  margin-block-end: 1rem;
+  color: #fff;
+}
+.header-header .logo {
+  width: 3rem;
+  height: 2rem;
+  background-image: url(../images/logo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-header .balance .title {
+  font-weight: 400;
+  font-size: 1rem;
+}
+.header-header .balance .amount {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+

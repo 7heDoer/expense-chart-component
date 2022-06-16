@@ -1,0 +1,32 @@
+.bar_container {
+  position: relative;
+  flex: 1;
+  text-align: center;
+  color: hsl(28deg, 10%, 53%);
+}
+.bar_container .tooltip {
+  background-color: hsl(25deg, 47%, 15%);
+  color: #fff;
+  padding-inline: 0.3rem;
+  padding-block: 0.2rem;
+  position: absolute;
+  border-radius: 4px;
+  margin: 0 auto;
+  font-weight: bold;
+  z-index: 100;
+  visibility: hidden;
+}
+.bar_container .day {
+  display: inline-block;
+  margin-block-start: 0.5rem;
+}
+.bar_container .bar {
+  background-color: hsl(10deg, 79%, 65%);
+  inline-size: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.bar_container .bar:hover {
+  background-color: hsl(186deg, 34%, 60%);
+}
+

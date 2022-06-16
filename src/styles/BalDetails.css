@@ -1,0 +1,46 @@
+.details {
+  background-color: #fff;
+}
+.details .title {
+  color: hsl(25deg, 47%, 15%);
+  font-size: 1.6rem;
+  margin-block-end: 3rem;
+}
+.details .histogram {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.8rem;
+  padding-block-end: 1rem;
+  border-bottom: 1px solid hsl(27deg, 66%, 92%);
+  margin-block-end: 1rem;
+}
+.details .details_footer .footer_title {
+  font-size: 1rem;
+  font-weight: 400;
+  color: hsl(28deg, 10%, 53%);
+  margin-block-end: 0.8rem;
+}
+.details .details_footer .bal_detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.details .details_footer .bal_detail .bal, .details .details_footer .bal_detail .rate .bold {
+  color: hsl(25deg, 47%, 15%);
+}
+.details .details_footer .bal_detail .bal {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.details .details_footer .bal_detail .rate {
+  display: flex;
+  flex-direction: column;
+  color: hsl(28deg, 10%, 53%);
+  font-size: .8rem;
+}
+.details .details_footer .bal_detail .rate .bold {
+  display: block;
+  font-weight: 700;
+  margin-left: auto;
+}
+

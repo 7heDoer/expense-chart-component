@@ -1,0 +1,37 @@
+.App {
+  inline-size: 100%;
+  block-size: 100vh;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(27, 66%, 92%);
+  font-family: "DM Sans", sans-serif;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.attribution {
+  margin-block-start: 2rem;
+  font-family: "DM Sans", sans-serif;
+}
+
+.pi-2r {
+  padding-inline: 1.5rem;
+  padding-block: 1rem;
+  border-radius: 12px;
+}
+
+@media (min-width: 500px) {
+
+  .App .container {
+    inline-size: 400px;
+  }
+
+  .pi-2r {
+    padding-inline: 2rem;
+    padding-block: 1rem;
+  }
+
+}
+
