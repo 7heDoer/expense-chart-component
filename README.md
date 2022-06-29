@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [code](https://github.com/7heDoer/expense-chart-component)
+- Solution URL: [code](https://github.com/HIIfeanyichukwu/expense-chart-component)
 - Live Site URL: [expense solution](https://doexpense.surge.sh)
 
 ## My process
